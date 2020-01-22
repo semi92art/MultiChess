@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: losAlamos_board_item
+  m_Controller: {fileID: 9100000, guid: 4c0936b24cb125b469bd5903ddf2bb88, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: cbe14ecc1d16caf44aa9946d356af0d8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: cbe14ecc1d16caf44aa9946d356af0d8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b92837722dd4aee4ab96ae32eae71975, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b92837722dd4aee4ab96ae32eae71975, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7d164a74e66890849a98765df03290a4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7d164a74e66890849a98765df03290a4, type: 2}

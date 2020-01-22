@@ -1,0 +1,470 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 10
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVRFilteringMode: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &27277993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 27277997}
+  - component: {fileID: 27277996}
+  - component: {fileID: 27277995}
+  - component: {fileID: 27277994}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &27277994
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27277993}
+  m_Enabled: 1
+--- !u!124 &27277995
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27277993}
+  m_Enabled: 1
+--- !u!20 &27277996
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27277993}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.41509432, g: 0.41509432, b: 0.41509432, a: 0}
+  m_projectionMatrixMode: 1
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_GateFitMode: 2
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 3.39
+  field of view: 60
+  orthographic: 1
+  orthographic size: 10
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &27277997
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27277993}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.35, y: 0, z: -0.53}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1232188969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1232188971}
+  - component: {fileID: 1232188970}
+  m_Layer: 0
+  m_Name: main_preload
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1232188970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232188969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6828e5a94cd6b94ab30d5bbff9115c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  classic_board_and_players:
+    boardPrefabs:
+      bright_board_item: {fileID: 1250846006760462, guid: e7733b88f6884e648bd7a79b4f60cd77,
+        type: 3}
+      dark_board_item: {fileID: 1362881613082554, guid: f2c92a7cea2356c4d81caaa33a84f7d2,
+        type: 3}
+      chessPackList:
+      - pawn: {fileID: 1941858791724262, guid: b0957d5a6963f774da197af45ed3400a, type: 3}
+        rook: {fileID: 1164105329546076, guid: b569242e67385a74dafef8f40eabe620, type: 3}
+        bishop: {fileID: 1130223425544922, guid: b13f522bde1438244a0c6e244af42d41,
+          type: 3}
+        knight: {fileID: 1503184655541854, guid: 948e463bc3115c240bfb973ccf74cb5f,
+          type: 3}
+        queen: {fileID: 1713732257554216, guid: 826b8091b27dcfa45a74750f182943a2,
+          type: 3}
+        king: {fileID: 1762717319075020, guid: 3231b7524eeb00e4c808630dd0171319, type: 3}
+      - pawn: {fileID: 1941858791724262, guid: b2f9a48d48f2c294291cc549719ea852, type: 3}
+        rook: {fileID: 1164105329546076, guid: 0e663c0940e7c9f43a5ceb52875ba7c2, type: 3}
+        bishop: {fileID: 1130223425544922, guid: 5f1c358983c80b448875e1e7a85a4e2e,
+          type: 3}
+        knight: {fileID: 1503184655541854, guid: dfa02f87877926343ad17f00bb2b9135,
+          type: 3}
+        queen: {fileID: 1713732257554216, guid: 913adcfc857e5cc4b9361b05e345515a,
+          type: 3}
+        king: {fileID: 1762717319075020, guid: 7ce91da469b056f42b290e4b2eeb7bb0, type: 3}
+    playerProterties:
+    - side: 0
+      type: 0
+      skillLevel: 1
+    - side: 1
+      type: 0
+      skillLevel: 1
+  los_alamos_board_and_players:
+    boardPrefabs:
+      bright_board_item: {fileID: 1250846006760462, guid: 3d5058d6b082d9d4a97522e089a3adeb,
+        type: 3}
+      dark_board_item: {fileID: 1362881613082554, guid: a3b82f6e040376b47a9c6a81c4932c13,
+        type: 3}
+      chessPackList:
+      - pawn: {fileID: 1941858791724262, guid: 70e32fab1abe7a94c8e8f1eb796dc576, type: 3}
+        rook: {fileID: 1164105329546076, guid: be085c63bebfe4f46b747994b86fabb6, type: 3}
+        bishop: {fileID: 0}
+        knight: {fileID: 1503184655541854, guid: 74cac251957ed904c9c97a4d2a2c05e5,
+          type: 3}
+        queen: {fileID: 1713732257554216, guid: 7219be76edb5c54459e2aeaf51f58111,
+          type: 3}
+        king: {fileID: 1762717319075020, guid: d43a39010b72a3949820f5478f6f674e, type: 3}
+      - pawn: {fileID: 1941858791724262, guid: 8bd9467e2e6375e4ba42bdb7c22d8ecc, type: 3}
+        rook: {fileID: 1164105329546076, guid: a9d2bff54fef2ca438a0771778572207, type: 3}
+        bishop: {fileID: 0}
+        knight: {fileID: 1503184655541854, guid: 58ea43b3d33576f4fa9c3765ab1e2488,
+          type: 3}
+        queen: {fileID: 1713732257554216, guid: cf881bd758178784387bfa9532bd0b66,
+          type: 3}
+        king: {fileID: 1762717319075020, guid: d29fa5ab536a58a4c8acbb5b1b6dbc60, type: 3}
+    playerProterties:
+    - side: 0
+      type: 0
+      skillLevel: 1
+    - side: 1
+      type: 0
+      skillLevel: 1
+  chaturanga_board_and_players:
+    boardPrefabs:
+      bright_board_item: {fileID: 1250846006760462, guid: f727aa52b0a457747bd878bc7ec2e3f2,
+        type: 3}
+      dark_board_item: {fileID: 1362881613082554, guid: 53a017b70bd57aa4198544208bd8cb34,
+        type: 3}
+      chessPackList:
+      - pawn: {fileID: 1941858791724262, guid: ac597a056d47ec74ca8cad9e3eb976b3, type: 3}
+        rook: {fileID: 1164105329546076, guid: 405bdf20ece40b0468ab3295a1b79783, type: 3}
+        bishop: {fileID: 0}
+        knight: {fileID: 1503184655541854, guid: 592e5dfd328b33a4380a68892897ddf5,
+          type: 3}
+        queen: {fileID: 1713732257554216, guid: f7a11429a26ca004ca617eecd5311885,
+          type: 3}
+        king: {fileID: 1762717319075020, guid: ca03852e65e000144aae132f4d422db1, type: 3}
+      - pawn: {fileID: 1941858791724262, guid: 207d7257312c49446b905e19da05417d, type: 3}
+        rook: {fileID: 1164105329546076, guid: 896d0a32d23012143b516a0f92d266ed, type: 3}
+        bishop: {fileID: 0}
+        knight: {fileID: 1503184655541854, guid: 2d4363659957ff547be3ae392030c5a8,
+          type: 3}
+        queen: {fileID: 1713732257554216, guid: 093698249562c754b8ee6c7b9a487a4c,
+          type: 3}
+        king: {fileID: 1762717319075020, guid: 6ad2c321aae9c594990472f47df48fdf, type: 3}
+      - pawn: {fileID: 1941858791724262, guid: 5f3d844c3ea50ce4b8cf1724b02184cd, type: 3}
+        rook: {fileID: 1164105329546076, guid: 19809002e8c67d746b6d3436e5181292, type: 3}
+        bishop: {fileID: 0}
+        knight: {fileID: 1503184655541854, guid: c1d22a3038db03e4c8a1d78f1eefa9c8,
+          type: 3}
+        queen: {fileID: 1713732257554216, guid: 8dee821bfc1321a41bb6376ac04fff49,
+          type: 3}
+        king: {fileID: 1762717319075020, guid: 64a134f08ac480549a5b901340a84989, type: 3}
+      - pawn: {fileID: 1941858791724262, guid: f34105a719c576b45935f984bd857aeb, type: 3}
+        rook: {fileID: 1164105329546076, guid: 877e80e96562b4e48b6b8000b2a2c673, type: 3}
+        bishop: {fileID: 0}
+        knight: {fileID: 1503184655541854, guid: 1e549d48b5d86b242b87f1ff2b5811c4,
+          type: 3}
+        queen: {fileID: 1713732257554216, guid: 7ba70ed8f7e18ba488a795192a50357e,
+          type: 3}
+        king: {fileID: 1762717319075020, guid: f1209fecf6319eb48bc679ef0d5381e4, type: 3}
+    playerProterties:
+    - side: 0
+      type: 0
+      skillLevel: 0
+    - side: 1
+      type: 0
+      skillLevel: 0
+    - side: 2
+      type: 0
+      skillLevel: 0
+    - side: 3
+      type: 0
+      skillLevel: 0
+  circled_board_and_players:
+    boardPrefabs:
+      bright_board_item: {fileID: 1250846006760462, guid: ba5245da238b76a41be1890d5ff3d666,
+        type: 3}
+      dark_board_item: {fileID: 1362881613082554, guid: baa1523450e0edb43aba2bfd314a8e41,
+        type: 3}
+      chessPackList:
+      - pawn: {fileID: 1941858791724262, guid: 3a59c291ca47ed040a3fe44b2f1bb96a, type: 3}
+        rook: {fileID: 1164105329546076, guid: b37c4e5a966ffcb448b4a88a08868805, type: 3}
+        bishop: {fileID: 1130223425544922, guid: 300cf3ca11d4dcd49874baf0cc85b6b5,
+          type: 3}
+        knight: {fileID: 1503184655541854, guid: 66581ec0741f6d9469c4751160b15f7f,
+          type: 3}
+        queen: {fileID: 1713732257554216, guid: ef26f1274f44e8348bc9f3be58ad1e6c,
+          type: 3}
+        king: {fileID: 1762717319075020, guid: 7b50d0cafb4645f44a36948eb32ee898, type: 3}
+      - pawn: {fileID: 1941858791724262, guid: e09dd00cc062e9b47a9c7097ddd3e2e5, type: 3}
+        rook: {fileID: 1164105329546076, guid: c22958db5fa46ed46a424c1f58f0a03c, type: 3}
+        bishop: {fileID: 1130223425544922, guid: 8f85b1741d386964f863cbc641d27f85,
+          type: 3}
+        knight: {fileID: 1503184655541854, guid: cd1370412bafc7c4a8a26251a0d58276,
+          type: 3}
+        queen: {fileID: 1713732257554216, guid: 7bdf01da077f45943a84af5674a16273,
+          type: 3}
+        king: {fileID: 1762717319075020, guid: f1f49602447b7f947ae8ade75b0d959b, type: 3}
+    playerProterties:
+    - side: 0
+      type: 0
+      skillLevel: 1
+    - side: 1
+      type: 0
+      skillLevel: 1
+  saved_game_menu_item_object: {fileID: 6037118210879488001, guid: f13d7761ea336714d942d70b87d50f39,
+    type: 3}
+  board_render_material_white: {fileID: 2100000, guid: aba808f8ed108a649adcf5680a70ebbf,
+    type: 2}
+  board_render_material_black: {fileID: 2100000, guid: c21dfdb0da8f6de48b4cc8b5d70ecfb3,
+    type: 2}
+  board_render_material_select: {fileID: 2100000, guid: 8bd8612b409b51e49a9444bac8708c92,
+    type: 2}
+  board_redner_material_possible_move: {fileID: 2100000, guid: b113f8b65119e204aaa89c5375651f17,
+    type: 2}
+--- !u!4 &1232188971
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232188969}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.5656224, y: -11.418808, z: 3.042294}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1805127504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1805127507}
+  - component: {fileID: 1805127506}
+  - component: {fileID: 1805127505}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1805127505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805127504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1805127506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805127504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1805127507
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805127504}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

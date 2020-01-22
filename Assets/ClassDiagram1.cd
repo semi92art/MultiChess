@@ -1,0 +1,829 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ChessEngine.ClassicMatchModel" Collapsed="true">
+    <Position X="15.75" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAACAAIAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\ChessEngine\MatchModels\ClassicMatchModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CircledMatchController" Collapsed="true">
+    <Position X="10.75" Y="9.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Boards\scr\Controllers\CircledMatchController.cs</FileName>
+      <NewMemberFileName>Assets\Boards\scr\Controllers\ClassicMatchController.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.ClassicChessBoardKit" Collapsed="true">
+    <Position X="20.25" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\ChessEngine\boardkits\ClassicChessBoardKit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.ChessBoardKitBase" Collapsed="true">
+    <Position X="20.5" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABACgAAQAIAAgUAAAAAAAABAAAAAAAABAAAEA=</HashCode>
+      <FileName>Assets\ChessEngine\boardkits\ChessBoardKitBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ChessEngine.LosAlamosChessBoardKit" Collapsed="true">
+    <Position X="20.25" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\ChessEngine\boardkits\LosAlamosChessBoardKit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.ChessBoardKitFactory" Collapsed="true">
+    <Position X="20.25" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAABAAAAAAAAAAAAAAAAAAQAAIAAA=</HashCode>
+      <FileName>Assets\ChessEngine\boardkits\ChessBoardKitFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.ChaturangaChessBoardKit" Collapsed="true">
+    <Position X="20.25" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\ChessEngine\boardkits\ChaturangaChessBoardKit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LosAlamosMatchView" Collapsed="true">
+    <Position X="6.5" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Boards\scr\Views\LosAlamosMatchView.cs</FileName>
+      <NewMemberFileName>Assets\Boards\scr\Views\ClassicChessMatchView.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessConstants">
+    <Position X="6.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAQAAAAACBAAAAAAQAIAAAAQAAAAAAIAAA=</HashCode>
+      <FileName>Assets\Boards\scr\ChessConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngineExtentions">
+    <Position X="6.25" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAIAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Boards\ChessEngineExtentions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardItemMono" Collapsed="true">
+    <Position X="3.25" Y="14.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Boards\scr\BoardItemMono.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessItemMono" Collapsed="true">
+    <Position X="0.75" Y="14.25" Width="2" />
+    <InheritanceLine Type="ChessItemMonoBase" FixedToPoint="true">
+      <Path>
+        <Point X="1.75" Y="13.441" />
+        <Point X="1.75" Y="14.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Boards\scr\ChessItemMono.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.ChessItemModelBase" Collapsed="true">
+    <Position X="23.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAgAAEAAAAAEAAAASAAgAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\ChessItemModelBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ChessEngine.ClassicBishopModel" Collapsed="true">
+    <Position X="23" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\classic\ClassicBishopModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.ClassicKingModel" Collapsed="true">
+    <Position X="23" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\classic\ClassicKingModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.ChaturangaKnightModel" Collapsed="true">
+    <Position X="27" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\chaturanga\ChaturangaKnightModel.cs</FileName>
+      <NewMemberFileName>Assets\ChessEngine\chess_models\classic\ClassicKnightModel.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.ChaturangaPawnModel" Collapsed="true">
+    <Position X="27" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\chaturanga\ChaturangaPawnModel.cs</FileName>
+      <NewMemberFileName>Assets\ChessEngine\chess_models\classic\ClassicPawnModel.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.ClassicQueenModel" Collapsed="true">
+    <Position X="23" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\classic\ClassicQueenModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.ClassicRookModel" Collapsed="true">
+    <Position X="23" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\classic\ClassicRookModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.LosAlamosKingModel" Collapsed="true">
+    <Position X="25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\los_alamos\LosAlamosKingModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.LosAlamosPawnModel" Collapsed="true">
+    <Position X="25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\los_alamos\LosAlamosPawnModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.LosAlamosQueenModel" Collapsed="true">
+    <Position X="25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\los_alamos\LosAlamosQueenModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.LosAlamosKnightModel" Collapsed="true">
+    <Position X="25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\los_alamos\LosAlamosKnightModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.LosAlamosRookModel" Collapsed="true">
+    <Position X="25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\los_alamos\LosAlamosRookModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.MatchModelBase" Collapsed="true">
+    <Position X="15.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAMgIEgAAQDUAAAATCAAAEBEMQQgoUAAQAAAgAECCwA=</HashCode>
+      <FileName>Assets\ChessEngine\MatchModels\MatchModelBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ChessEngine.PlayerBase" Collapsed="true">
+    <Position X="34.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAJAIgAAAAAAAAAgAACAIAwAAAQAAQgAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\PlayerModels\PlayerBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ChessEngine.ComputerPlayer" Collapsed="true">
+    <Position X="34.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAICAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\PlayerModels\ComputepPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.ChaturangaRookModel" Collapsed="true">
+    <Position X="27" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\chaturanga\ChaturangaRookModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.ClassicKnightModel" Collapsed="true">
+    <Position X="23" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\classic\ClassicKnightModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.ChaturangaKingModel" Collapsed="true">
+    <Position X="27" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\chaturanga\ChaturangaKingModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.ChaturangaQueenModel" Collapsed="true">
+    <Position X="27" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\chaturanga\ChaturangaQueenModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.LosAlamosMatchModel" Collapsed="true">
+    <Position X="15.75" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\MatchModels\LosAlamosMatchModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.StockFishDllService" Collapsed="true">
+    <Position X="34.5" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QQAAAIAAAAAAAAAQAAAQCAACAEACAAAAqAAAAQAIAgA=</HashCode>
+      <FileName>Assets\ChessEngine\StockFishDllService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ChessEngine.StockfishJNIService" Collapsed="true">
+    <Position X="34.5" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAAEIAAAAAAAAAAAAAQAAAAAEBCAAAAIAAAAQAJAAA=</HashCode>
+      <FileName>Assets\ChessEngine\StockFishJNIService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ChessEngine.UciConverter">
+    <Position X="23" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAQAAAAAAAAAAAAAAAAAAAAAEAAJAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\UciConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainPreload" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAiAAIAgEAAAQJAAAkEgAAIkAAAgoAACAAAg=</HashCode>
+      <FileName>Assets\Boards\scr\MainPreload.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.ChessEngineConstants">
+    <Position X="29.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAFBAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\ChessLib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.ChessEngineFunctions">
+    <Position X="25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\ChessLib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.ChaturangaMatchModel" Collapsed="true">
+    <Position X="15.75" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\MatchModels\ChaturangaMatchModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChaturangaMatchController" Collapsed="true">
+    <Position X="10.75" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Boards\scr\Controllers\ChaturangaMatchController.cs</FileName>
+      <NewMemberFileName>Assets\Boards\scr\Controllers\LosAlamosMatchController.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MatchControllerBase" Collapsed="true">
+    <Position X="10.75" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAKBAECmBIAAAAAAEAAAAAAAAAAgAAIAAAAgAQAAA=</HashCode>
+      <FileName>Assets\Boards\scr\Controllers\MatchControllerBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LosAlamosMatchController" Collapsed="true">
+    <Position X="10.75" Y="7.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Boards\scr\Controllers\LosAlamosMatchController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CircledMatchView" Collapsed="true">
+    <Position X="6.5" Y="9.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEAEAAABAAAgAIEAAAAAQAAAAAAAAAAAAAAAAAEQAAA=</HashCode>
+      <FileName>Assets\Boards\scr\Views\CircledMatchView.cs</FileName>
+      <NewMemberFileName>Assets\Boards\scr\Views\ClassicChessMatchView.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ChaturangaMatchView" Collapsed="true">
+    <Position X="6.5" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Boards\scr\Views\ChaturangaMatchView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.PlayerFactory" Collapsed="true">
+    <Position X="36.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\PlayerModels\PlayerFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardInitializerBase">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAADAAAgAAAAAAAAAAAAAAAAAAIAAAAAAAAgA=</HashCode>
+      <FileName>Assets\Boards\scr\BoardInitializers\BoardInitializerBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ClassicBoardInitializer" Collapsed="true">
+    <Position X="2.5" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Boards\scr\BoardInitializers\ClassicBoardInitializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LosAlamosBoardInitializer" Collapsed="true">
+    <Position X="2.5" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Boards\scr\BoardInitializers\LosAlamosBoardInitializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChaturangaBoardInitializer" Collapsed="true">
+    <Position X="2.5" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Boards\scr\BoardInitializers\ChaturangaBoardInitializer.cs</FileName>
+      <NewMemberFileName>Assets\Boards\scr\BoardInitializers\LosAlamosBoardInitoalizer.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessItemPropertiesFactory">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Assets\Boards\scr\ChessItemPropertiesFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.NullChessItemModelShort" Collapsed="true">
+    <Position X="27" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAgAAAAAAAAAAAAASAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\NullChessItemModelShort.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BoardPrefabs">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAABAAAAAAA=</HashCode>
+      <FileName>Assets\Boards\scr\BoardPrefabs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MatchViewBase" Collapsed="true">
+    <Position X="6.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AWQBCgBJACRkQoHCQAEAGQAABBIHIoAFIgEBCBITAAA=</HashCode>
+      <FileName>Assets\Boards\scr\Views\MatchViewBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ChessEngine.HumanPlayer" Collapsed="true">
+    <Position X="36.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\PlayerModels\HumanPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FENConstants">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="FENConstants.ClassicFEN" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Boards\scr\FENConstants.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="FENConstants.LosAlamosFEN" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Boards\scr\FENConstants.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="FENConstants.ChaturangaFEN" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Boards\scr\FENConstants.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="FENConstants.CircledFEN" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Boards\scr\FENConstants.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EAASEAAAAAAAAAAAAACAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Boards\scr\FENConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.PossibleMovesFinder">
+    <Position X="29.25" Y="15" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAACAAAAAAAABAAAAAAAAAAAAgAAAABAABA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\PossibleMovesFinder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.NullChessItemModel" Collapsed="true">
+    <Position X="30.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\NullChessItemModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CircledBoardInitializer" Collapsed="true">
+    <Position X="2.5" Y="9.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Boards\scr\BoardInitializers\CircledBoardInitializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.ClassicPawnModel" Collapsed="true">
+    <Position X="23" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\classic\ClassicPawnModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.CircledBishopModel" Collapsed="true">
+    <Position X="29" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\circled\CircledBishopModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.CircledKnightModel" Collapsed="true">
+    <Position X="29" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\circled\CircledKnightModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.CircledRookModel" Collapsed="true">
+    <Position X="29" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\circled\CircledRookModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.CircledKingModel" Collapsed="true">
+    <Position X="29" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\circled\CircledKingModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.CircledQueenModel" Collapsed="true">
+    <Position X="29" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\circled\CircledQueenModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.CircledBoardKit" Collapsed="true">
+    <Position X="20.25" Y="9.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\ChessEngine\boardkits\CircledBoardKit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.CircledMatchModel" Collapsed="true">
+    <Position X="15.75" Y="9.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\MatchModels\CircledMatchModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassicMatchController" Collapsed="true">
+    <Position X="10.75" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Boards\scr\Controllers\ClassicMatchController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassicChessMatchView" Collapsed="true">
+    <Position X="6.5" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Boards\scr\Views\ClassicChessMatchView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.FigurePlacementFactory" Collapsed="true">
+    <Position X="20.25" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\boardkits\FigurePlacementFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.ServiceLocator">
+    <Position X="34.75" Y="11.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAIAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\ServiceLocator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControllerFactory">
+    <Position X="10.75" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAgAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAE=</HashCode>
+      <FileName>Assets\Boards\scr\Controllers\ControllerFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenu" Collapsed="true">
+    <Position X="0.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQIMYKCRiAWUECAQSgAWQM4AtmElFGBAACgUAEIKAI=</HashCode>
+      <FileName>Assets\ui\scr\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SavedGameMenuItem" Collapsed="true">
+    <Position X="5.75" Y="12.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAACAAAABAAQAAAAE=</HashCode>
+      <FileName>Assets\ui\scr\SavedGameMenuItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.CircledPawnModel" Collapsed="true">
+    <Position X="29" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\circled\CircledPawnModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessItemMonoBase" Collapsed="true">
+    <Position X="0.75" Y="12.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQACQAACCAAAAIAAQABBAAAAACAAAAAYUABAIQAAgA=</HashCode>
+      <FileName>Assets\Boards\scr\ChessItemMonoBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessItemMonoCircled" Collapsed="true">
+    <Position X="0.75" Y="15.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAACCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Boards\scr\ChessItemMonoCircled.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardItemMonoBase" Collapsed="true">
+    <Position X="3.25" Y="12.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAAQACAAEAIAAEAACIADAACAAgABAAQBAQAAABA=</HashCode>
+      <FileName>Assets\Boards\scr\BoardItemMonoBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardItemMonoCircled" Collapsed="true">
+    <Position X="3.25" Y="15.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>oAQABAAAACAAAAAAAAAAAhAIAAABAgAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Boards\scr\BoardItemMonoCircled.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.PathFinder">
+    <Position X="32" Y="15" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAACAAACAACAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\PathFinder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="ChessItemProperties">
+    <Position X="0.5" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAIAAAAQBAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\Boards\scr\ChessItemProperties.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ChessEngine.ChessItemModelShort" Collapsed="true">
+    <Position X="25.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAgAAAAAAAAAAAAASAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\ChessItemModelShort.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Struct Name="ChessEngine.FigureMove" Collapsed="true">
+    <Position X="26.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABEAAwAEQAEAKQAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\ChessEngine\FigureMove.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PlayerProperties">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAICAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Boards\scr\PlayerProperties.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BoardPrefabsPlayerProperties">
+    <Position X="4.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Assets\Boards\scr\BoardPrefabsPlayerProperties.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="ChessEngine.IChessMatchCurrentState">
+    <Position X="13.5" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAACAAAAAAAIQAAAAAAAAAAgAEACAA=</HashCode>
+      <FileName>Assets\ChessEngine\MatchModels\MatchModelInterfaces\IChessMatchCurrentState.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ChessEngine.IFEN">
+    <Position X="13.5" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAEgAAAAAAAAAQAAAAAAAEAQAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\MatchModels\MatchModelInterfaces\IFEN.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ChessEngine.IMoveBack">
+    <Position X="13.5" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\MatchModels\MatchModelInterfaces\IMoveBack.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ChessEngine.IChessAction">
+    <Position X="13.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAACAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\MatchModels\MatchModelInterfaces\IChessAction.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ChessEngine.ICastling">
+    <Position X="13.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\MatchModels\MatchModelInterfaces\ICastling.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IMatchView_Internal">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAABAAAAAAAAAEAAABAABAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Boards\scr\Views\IMatchView_Internal.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ChessEngine.IChessItemModelShort">
+    <Position X="25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAgAAAAAAAAAAAAASAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\IChessItemModelShort.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ChessEngine.IPlayer">
+    <Position X="32.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIgAAAAAAAAAAAACAIAwAAAQAAAgAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\PlayerModels\IPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ChessEngine.IChessItemModel">
+    <Position X="23" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\IChessItemModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IChessUCIEngine">
+    <Position X="32.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAIAAAAAAAAAAAAAQAAAAAEACAAAAIAAAAQAIAAA=</HashCode>
+      <FileName>Assets\ChessEngine\interfaces\IChessUCIEngine.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IMatchController">
+    <Position X="9" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIBAECEAIAAAAAAAAAAAAAAAAAgAAAAAAAgAAAAA=</HashCode>
+      <FileName>Assets\Boards\scr\Controllers\IMatchController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IBoardInitializer" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Boards\scr\BoardInitializers\IBoardInitializer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ChessEngine.IMessaging">
+    <Position X="15.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\MatchModels\MatchModelInterfaces\IMessaging.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ChessEngine.IChessBoardKit">
+    <Position X="18.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABACgAAQAIAAgUAAAAAAAABAAAAAAAABAAAEA=</HashCode>
+      <FileName>Assets\ChessEngine\boardkits\IChessBoardKit.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IMatchView_ControllerAPI">
+    <Position X="4.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAACAAAACAAAAAAQAEAAAAAAAAEAAAAIAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Boards\scr\Views\IMatchView_ControllerAPI.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ChessEngine.IFigureOnBoard">
+    <Position X="13.5" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAMAAAAAAABAAAAABAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\MatchModels\MatchModelInterfaces\IFigureOnBoard.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ChessEngine.ClassicChessItemType">
+    <Position X="23" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAABJIAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\classic\ClassicChessItemType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ChessEngine.LosAlamosChessItemType">
+    <Position X="25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAABIIAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\los_alamos\LosAlamosChessItemType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ChessEngine.ChaturangaChessItemType">
+    <Position X="27" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAABIIAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\chaturanga\ChaturangaChessItemType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ChessEngine.TimerType">
+    <Position X="33.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAQAAAAAAAAACA=</HashCode>
+      <FileName>Assets\ChessEngine\ChessLib.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ChessEngine.PlayerType">
+    <Position X="33.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\ChessLib.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ChessEngine.ChessSide">
+    <Position X="31.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAIEAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Assets\ChessEngine\ChessLib.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ChessEngine.MatchStage">
+    <Position X="31.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAAIAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\ChessLib.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ChessEngine.Castling">
+    <Position X="31.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAgAgAEAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\ChessLib.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ChessEngine.SkillLevel">
+    <Position X="35.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAFAIAAAAADgQAAAAAhQAAAAAAAAAAAAAAAOC+AQA=</HashCode>
+      <FileName>Assets\ChessEngine\ChessLib.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ChessEngine.ChessGameType">
+    <Position X="33.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAgAAAAAABAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\ChessEngine\ChessGameType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ChessEngine.CircledChessItemType">
+    <Position X="29" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAABAAAAAABJAAAAADAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ChessEngine\chess_models\circled\CircledChessItemType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
